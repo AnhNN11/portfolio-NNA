@@ -3,36 +3,32 @@ import { Container, Nav, Navbar } from "react-bootstrap";
 
 function Header() {
   return (
-    <Navbar
-      expand="md"
-      className="bg-dark text-light"
-      style={{ backgroundColor: "#f56106", position: 'fixed', left: 0, top: 0, right: 0 }}
-    >
+    <Navbar data-bs-theme="dark" style={{ backgroundColor: "White" }}>
       <Container>
-        <Navbar.Brand href="#home" className="text-light">
-          ThangTVB
+        <Navbar.Brand
+        // href="#home"
+        // style={{
+        //   fontSize: "24px",
+        //   fontWeight: "bold",
+        //   color: "white",
+        //   fontStyle: "italic", // Adding italic style
+        // }}
+        >
+          <img
+            src="assets/Logo.png"
+            alt="logo"
+            style={{ width: "110px", height: "45px" }}
+          />
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Nav>
-          <Nav.Link className="text-light" href="#about">
-            About
+          <Nav.Link className="text-danger" href="#">
+            <i className="fab fa-facebook fa-2x"></i>
           </Nav.Link>
-          <Nav.Link className="text-light" href="#projects">
-            Projects
+          <Nav.Link className="text-danger" href="#">
+            <i className="fab fa-github fa-2x"></i>
           </Nav.Link>
-          <Nav.Link className="text-light" href="#contact">
-            Contact
-          </Nav.Link>
-        </Nav>
-        <Nav>
-          <Nav.Link className="text-light" href="#">
-            <i class="fa-brands fa-facebook"></i>
-          </Nav.Link>
-          <Nav.Link className="text-light" href="#">
-            <i class="fa-brands fa-github"></i>
-          </Nav.Link>
-          <Nav.Link className="text-light" href="#">
-            <i class="fa-solid fa-envelope"></i>
+          <Nav.Link className="text-danger" href="#">
+            <i className="fas fa-envelope fa-2x"></i>
           </Nav.Link>
         </Nav>
       </Container>

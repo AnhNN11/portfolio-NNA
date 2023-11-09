@@ -19,7 +19,7 @@ function About() {
   return (
     <>
       <Container fluid="xl" style={{ padding: "0 180px" }} id="about">
-        <h1 style={{ marginTop: 60, marginBottom: 20, textTransform: 'uppercase', fontWeight: 700, color: "#f56106" }}>About</h1>
+        <h1 style={{ marginTop: 60, marginBottom: 20, textTransform: 'uppercase', fontWeight: 700, color: "#0000CD" }}>About</h1>
         <Stack
           direction="horizontal"
           gap={3}
@@ -27,7 +27,6 @@ function About() {
         >
           <Image
             width={300}
-            // src="public/assets/avatar.jpg"
             src="assets/avatar.jpg"
             rounded
           />
