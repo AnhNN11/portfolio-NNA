@@ -13,7 +13,7 @@ function Projects() {
             marginBottom: 20,
             textTransform: "uppercase",
             fontWeight: 700,
-            color: "#f56106",
+            color: "#EE0000",
           }}
         >
           Project

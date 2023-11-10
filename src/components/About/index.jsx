@@ -19,7 +19,7 @@ function About() {
   return (
     <>
       <Container fluid="xl" style={{ padding: "0 180px" }} id="about">
-        <h1 style={{ marginTop: 60, marginBottom: 20, textTransform: 'uppercase', fontWeight: 700, color: "#0000CD" }}>About</h1>
+        <h1 style={{ marginTop: 60, marginBottom: 20, textTransform: 'uppercase', fontWeight: 700, color: "red" }}>About</h1>
         <Stack
           direction="horizontal"
           gap={3}
@@ -62,7 +62,7 @@ function About() {
             <Button
               variant="primary"
               style={{
-                backgroundColor: "#f56106",
+                backgroundColor: "#EE0000",
                 border: "none",
                 padding: "8px 12px",
                 width: "50%"

@@ -24,7 +24,7 @@ function PItem({ project }) {
           <Button
             variant="primary"
             style={{
-              backgroundColor: "#f56106",
+              backgroundColor: "#EE0000",
               border: "none",
               padding: "8px 12px",
               width: "80%",

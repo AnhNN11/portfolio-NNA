@@ -12,7 +12,7 @@ function Contact() {
             marginBottom: 20,
             textTransform: "uppercase",
             fontWeight: 700,
-            color: "#f56106",
+            color: "#EE0000",
           }}
         >
           Contact
@@ -21,12 +21,12 @@ function Contact() {
           <div className="d-flex flex-column align-items-center p-4 bg-dark w-50">
             <i
               class="fa-solid fa-phone"
-              style={{ color: "#f56106", fontSize: 24 }}
+              style={{ color: "#EE0000", fontSize: 24 }}
             ></i>
-            <h5 style={{ color: "#f56106", fontSize: 20 }}>Talk to me!</h5>
+            <h5 style={{ color: "#EE0000", fontSize: 20 }}>Talk to me!</h5>
             <a
               style={{
-                color: "#f56106",
+                color: "#EE0000",
                 fontSize: 16,
                 textDecoration: "none",
                 letterSpacing: 2,
@@ -51,19 +51,19 @@ function Contact() {
           <div className="d-flex flex-column align-items-center p-4 bg-dark w-50">
             <i
               class="fa-solid fa-envelope"
-              style={{ color: "#f56106", fontSize: 24 }}
+              style={{ color: "#EE0000", fontSize: 24 }}
             ></i>
-            <h5 style={{ color: "#f56106", fontSize: 20 }}>Mail to me!</h5>
+            <h5 style={{ color: "#EE0000", fontSize: 20 }}>Mail to me!</h5>
             <a
               style={{
-                color: "#f56106",
+                color: "#EE0000",
                 fontSize: 16,
                 textDecoration: "none",
                 letterSpacing: 2,
               }}
               href="#"
             >
-              Thangtvb.dev@gmail.com
+              nguyenhatanh.dev@gmail.com
             </a>
             <p
               style={{
