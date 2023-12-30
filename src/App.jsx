@@ -15,6 +15,7 @@ function App() {
   return (
     <div style={appStyle}>
       <Header></Header>
+      shkofhan;àm;lsamf;sma;fmwe;lmfe
       <Hero></Hero>
       <About></About>
       <Projects></Projects>
